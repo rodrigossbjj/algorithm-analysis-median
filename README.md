@@ -46,7 +46,8 @@ Notas
 - **Interpretação:** O gráfico `outputs/median_benchmark.png` mostra a comparação entre as duas abordagens. Em entradas grandes observa-se que `median_divide_and_conquer` cresce muito mais lentamente que `median_merge_sort` (que apresenta comportamento compatível com O(n log n)), enquanto o algoritmo de divisão e conquista tem comportamento próximo ao previsto teoricamente (dependendo de constantes e do tamanho relativo dos vetores).
 - **Overheads e limitações:** Para tamanhos pequenos o custo de chamadas, cópias e constantes de implementação podem fazer com que o método de juntar+ordenar seja competitivo. Experimentos devem mencionar a máquina usada, versão do Python e número de repetições.
 - **Configuração usada neste repositório:** `REPEATS = 10` (ver `benchmark/runner.py` ou `plot_results.py`), tamanhos testados em `plot_results.py` (por padrão 1_000 a 100_000) e gráfico salvo em `outputs/median_benchmark.png`.
-- **Validação:** As implementações são comparadas em cada entrada via `assert` no runner e há testes em `tests/test_median.py`.
+
+![Gráfico comparativo de tempos](outputs/median_benchmark.png)
 
 ## Como reproduzir
 
