@@ -6,7 +6,7 @@ from algorithms import median_merge_sort, median_divide_and_conquer
 from .data_gen import generate_sorted_pair
 
 
-def benchmark(sizes: List[int], repeats: int = 5) -> dict:
+def benchmark(sizes: List[int], repeats: int = 10) -> dict:
     results = {
         "sizes": sizes,
         "algo1_times": [],
@@ -41,5 +41,5 @@ def benchmark(sizes: List[int], repeats: int = 5) -> dict:
 
 if __name__ == "__main__":
     SIZES = [1_000, 5_000, 10_000, 30_000, 50_000, 75_000, 100_000]
-    REPEATS = 5
+    REPEATS = 10
     benchmark(SIZES, REPEATS)

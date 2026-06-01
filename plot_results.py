@@ -11,7 +11,7 @@ import numpy as np
 from benchmark.runner import benchmark
 
 SIZES   = [1_000, 5_000, 10_000, 30_000, 50_000, 75_000, 100_000]
-REPEATS = 5
+REPEATS = 10
 
 # ── Roda o benchmark ──────────────────────────────────────────────
 results = benchmark(SIZES, REPEATS)
