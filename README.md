@@ -48,12 +48,6 @@ Notas
 - **Configuração usada neste repositório:** `REPEATS = 10` (ver `benchmark/runner.py` ou `plot_results.py`), tamanhos testados em `plot_results.py` (por padrão 1_000 a 100_000) e gráfico salvo em `outputs/median_benchmark.png`.
 - **Validação:** As implementações são comparadas em cada entrada via `assert` no runner e há testes em `tests/test_median.py`.
 
-## Vídeo
-
-- Grave um vídeo explicando o experimento e publique no YouTube. Insira o link abaixo para completar a entrega:
-
-YouTube: (substitua por seu link de vídeo)
-
 ## Como reproduzir
 
 1. Instale dependências:
