@@ -47,7 +47,7 @@ Notas
 - **Overheads e limitações:** Para tamanhos pequenos o custo de chamadas, cópias e constantes de implementação podem fazer com que o método de juntar+ordenar seja competitivo. Experimentos devem mencionar a máquina usada, versão do Python e número de repetições.
 - **Configuração usada neste repositório:** `REPEATS = 10` (ver `benchmark/runner.py` ou `plot_results.py`), tamanhos testados em `plot_results.py` (por padrão 1_000 a 100_000) e gráfico salvo em `outputs/median_benchmark.png`.
 
-![Gráfico comparativo de tempos](outputs/median_benchmark.png)
+![Gráfico comparativo de tempos](resources/median_benchmark.png)
 
 ## Como reproduzir
 
